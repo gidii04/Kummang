@@ -555,10 +555,10 @@
     width: 30px;
   }
   .home-img {
-    height: 100vh;
+    height: 500px;
   }
   .home-info {
-    top: 40%;
+    top: 50%;
   }
   .home-info h2 {
     font-size: 32px;
@@ -811,7 +811,7 @@
     padding: 4% 32px;
   }
   .home-img {
-    height: 70vh;
+    height: 40vh;
   }
   .home-info {
     top: 50%;
@@ -854,26 +854,23 @@
     grid-template-columns: 1fr;
     width: 100%;
   }
-  .arrow-icon {
-    font-size: 12px;
-  }
   .product {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
   #left-icon {
-    top: 50px;
+    top: 100px;
     left: 0;
   }
   #right-icon {
-    top: 50px;
+    top: 100px;
     right: 0;
   }
   .product-details h4 {
-    font-size: 8px;
+    font-size: 12px;
   }
   .product-details p {
-    font-size: 8px;
+    font-size: 12px;
   }
   .person-image {
     display: none;
@@ -890,6 +887,12 @@
   .get-started a,
   .contact a {
     font-size: 12px;
+  }
+  .footer-container {
+    padding-top: 50px;
+  }
+  .footer-area {
+    gap: 30px;
   }
   .footer-links {
     display: grid;
