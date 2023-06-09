@@ -555,7 +555,7 @@
     width: 30px;
   }
   .home-img {
-    height: 500px;
+    height: auto;
   }
   .home-info {
     top: 50%;
@@ -855,8 +855,8 @@
     width: 100%;
   }
   .product {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   #left-icon {
     top: 100px;
