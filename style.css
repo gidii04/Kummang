@@ -60,7 +60,7 @@
 }
 
 .home-info h2 {
-  font-size: 62px;
+  font-size: 58px;
   font-family: 'Roboto';
   font-weight: 100;
   width: 70%;
@@ -281,7 +281,6 @@
   display: flex;
   overflow: auto;
   scroll-behavior: smooth;
-  /* overflow-x: scroll; */
 }
 
 .product {
@@ -314,7 +313,6 @@
   z-index: 1;
   top: 150px;
   right: 50px;
-  /* bottom: 0; */
 }
 
 .product-details h4 {
@@ -538,6 +536,88 @@
   display: none;
 }
 
+@media screen and (max-width: 996px) and (min-width: 780px) {
+  .nav-links,
+  .shop-icons {
+    display: none;
+  }
+  .mobile-bar {
+    display: block;
+    font-size: 20px;
+  }
+  .mobile-overlay {
+    display: block;
+  }
+  .navbar {
+    padding: 4% 52px;
+  }
+  .logo {
+    width: 30px;
+  }
+  .home-img {
+    height: 100vh;
+  }
+  .home-info {
+    top: 40%;
+  }
+  .home-info h2 {
+    font-size: 32px;
+    width: 70%;
+  }
+  .home-info p {
+    font-size: 16px;
+    width: 50%;
+  }
+  .item {
+    width: 100%;
+  }
+  .item-desc {
+    width: 60%;
+  }
+  .item-desc h1 {
+    font-size: 32px;
+  }
+
+  .item-desc h2 {
+    font-size: 20px;
+  }
+  .item-desc h3 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .item-desc p {
+    font-size: 20px;
+    width: 90%;
+  }
+  .f-img {
+    width: 300px;
+    top: 20px;
+    right: 70px;
+    height: 400px;
+  }
+  .item-two {
+    gap: 20px;
+  }
+  .item-desc-two h1 {
+    font-size: 28px;
+  }
+
+  .item-desc-two h2 {
+    font-size: 20px;
+  }
+  .item-desc-two h3 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .item-desc-two p {
+    font-size: 20px;
+    width: 100%;
+  }
+  .coconut {
+    width: 350px;
+    height: 400px;
+  }
+}
 @media screen and (max-width: 780px) {
   .nav-links,
   .shop-icons {
@@ -747,9 +827,12 @@
   }
   .shop-now {
     font-size: 10px;
-    width: 25%;
+    width: 22%;
     padding: 4px 8px;
     white-space: nowrap;
+  }
+  .shipping {
+    width: 75%;
   }
   .home-link {
     display: grid;
