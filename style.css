@@ -637,7 +637,7 @@
     width: 30px;
   }
   .home-img {
-    height: 70vh;
+    /* height: 70vh; */
   }
   .home-info {
     /* top: 60%; */
@@ -859,11 +859,11 @@
     height: 150px;
   }
   #left-icon {
-    top: 100px;
+    top: 75px;
     left: 0;
   }
   #right-icon {
-    top: 100px;
+    top: 75px;
     right: 0;
   }
   .product-details h4 {
